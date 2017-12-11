@@ -1,0 +1,42 @@
+登录验证
+jq->ajax()->正误
+function select 
+
+
+注册验证
+jq->ajax($email,$学号)
+function insert($condition){
+	$condition['username',sno,pass.....]
+	insert into value $condition
+}
+
+
+信息列表显示
+
+function select($id){
+	$user->where(id=$id)->find()->limit (字数);
+}
+
+详情
+Bootstrap->collapseOne
+select();
+
+
+完成
+jq->颜色变化
+sql->标签->update(status)
+
+
+取消完成
+jq->颜色变化
+sql->标签->update(status)
+
+
+接受推送
+->stmp邮件队列
+
+
+推送
+function remind($content,$截止日期){
+	$user->insert($content,$截止日期)
+}
