@@ -4,6 +4,7 @@
 $(document).ready(function() {
     $(".tiao").click(function() {
         if (this.className != "finish-check"){
+
             this.className = "finish-check";
             this.nextElementSibling.className = "content list-finish fl";
 
@@ -16,12 +17,18 @@ $(document).ready(function() {
                     content_id: content_id
                 },
                 function (data, status) {
+                    if(status == "success") {
+                    }
                 });
         }
     });
 
     /*当用户点击连接到详情页后 此处需要传递参数*/
-    // $(".link").click(function () {
-    //    alert("hi");
-    // });
+    $(".link").click(function () {
+
+        var stu_id = $(this).attr("data-studentid");
+        var content_id = $(this).attr("data-contentid");
+
+        window.location.href = "/develope/index.php/home/Detail/index.html?student_id=" + stu_id + "&content_id=" + content_id;
+    });
 });
