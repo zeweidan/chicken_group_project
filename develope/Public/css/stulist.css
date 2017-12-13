@@ -1,0 +1,118 @@
+
+    html,
+    body,
+    div {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .fr {
+        float: right;
+    }
+
+    /*学生列表页*/
+    .list-main {
+        margin: 0 auto;
+        background-color: #87ceeb;
+        height: 13.5%;
+        font-size: 20px;
+        vertical-align: bottom;
+        position: relative;
+    }
+
+    .list-title {
+        width: 119.5px;
+        height: 29.5px;
+        float: left;
+        position: absolute;
+        bottom: 11px;
+        left:23.5px;
+        background: url("../icon/daiban.png") left center no-repeat;
+
+    }
+
+    .list-exit {
+        width:21.5px;
+        height:21.5px;
+        float: right;
+        margin-top: 10px;
+        background: url("../icon/exit.png") left center no-repeat;
+    }
+
+    .list-over {
+        color: red;
+    }
+
+    .list-finish {
+        color: #a4a4a4;
+        text-decoration: line-through;
+    }
+
+    .list-on p {
+        color: #87ceeb;
+    }
+
+    .content {
+        width: 79%;
+        padding-left:15px;
+        overflow: hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+        -o-text-overflow: ellipsis;
+    }
+    .content div {
+        font-size: 15px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .content p {
+        font-size: 14px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .overdate-check {
+        width: 19.5px;
+        height: 19.5px;
+        background: url("../icon/gq.png") left center no-repeat;
+        position:relative;
+        top: 5px;
+        display: block;
+        float:left;
+        cursor:pointer;
+    }
+
+    .ddl-check {
+        width: 19.5px;
+        height: 19.5px;
+        background: url("../icon/wx.png") left center no-repeat;
+        position:relative;
+        top: 5px;
+        display: block;
+        float:left;
+        cursor:pointer;
+    }
+
+    .finish-check {
+        width: 22.5px;
+        height: 21.5px;
+        background: url("../icon/xz.jpg") left center no-repeat;
+        position:relative;
+        top: 5px;
+        display: block;
+        float:left;
+        cursor:pointer;
+    }
+
+    .link {
+        width: 7px;
+        height: 12px;
+        background: url("../icon/right.png") left center no-repeat;
+        position:relative;
+        top: 15px;
+        cursor:pointer;
+    }

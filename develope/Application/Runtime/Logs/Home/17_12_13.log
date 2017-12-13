@@ -5313,3 +5313,304 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
 
+[ 2017-12-13T13:27:04+08:00 ] ::1 /develope/index.php/home/List/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-12-13T13:36:45+08:00 ] ::1 /develope/index.php/home/List/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-12-13T13:36:47+08:00 ] ::1 /develope/index.php/home/List/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-12-13T13:37:01+08:00 ] ::1 /develope/index.php/home/success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-12-13T13:37:12+08:00 ] ::1 /develope/index.php/home/success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-12-13T13:40:14+08:00 ] ::1 /develope/index.php/home/success
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-12-13T13:40:23+08:00 ] ::1 /develope/index.php/home/List
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-12-13T13:40:39+08:00 ] ::1 /develope/index.php/home/List/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0025s ]
+SQL: UPDATE `stu_link_content` SET `status`='1' WHERE `content_id` = 4 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-12-13T13:40:40+08:00 ] ::1 /develope/index.php/home/List
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-12-13T13:40:41+08:00 ] ::1 /develope/index.php/home/List/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0020s ]
+SQL: UPDATE `stu_link_content` SET `status`='1' WHERE `content_id` = 4 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-12-13T13:40:42+08:00 ] ::1 /develope/index.php/home/List/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0018s ]
+SQL: UPDATE `stu_link_content` SET `status`='1' WHERE `content_id` = 3 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-12-13T13:40:43+08:00 ] ::1 /develope/index.php/home/List
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-12-13T13:40:44+08:00 ] ::1 /develope/index.php/home/List/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0021s ]
+SQL: UPDATE `stu_link_content` SET `status`='1' WHERE `content_id` = 2 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-12-13T13:40:44+08:00 ] ::1 /develope/index.php/home/List
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `stu_link_content` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `stu_link_content` WHERE ( student_id=201601 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `stu_content` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `stu_content` WHERE ( content_id=4 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+

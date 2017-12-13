@@ -6,11 +6,11 @@
     <title>注册成功</title>
     <!--css style-->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="/develope/Public/css/main.css" rel="stylesheet"/>
+    <link href="/develope/Public/css/success.css" rel="stylesheet"/>
     <!--javascript-->
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="/develope/Public/js/main.js"></script>
+    <script src="/develope/Public/js/success.js"></script>
 </head>
 <body style="background-color: #F0F0F0">
     <div class="main container-fluid">
