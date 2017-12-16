@@ -36,12 +36,30 @@
 
     }
 
+    .exit {
+        margin-top: 10px;
+        height:21.5px;
+        float: right;
+    }
+
+    .list-name{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        top: 4px;
+        color: #FFF;
+        font-family: "Microsoft YaHei";
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
     .list-exit {
         width:21.5px;
         height:21.5px;
         float: right;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
         background: url("../icon/exit.png") left center no-repeat;
+        cursor:pointer;
     }
 
     .list-over {

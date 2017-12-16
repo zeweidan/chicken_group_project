@@ -22,13 +22,29 @@ $(document).ready(function() {
                 });
         }
     });
-
+    
     /*当用户点击连接到详情页后 此处需要传递参数*/
-    $(".link").click(function () {
+    $(".link").click(function() {
 
         var stu_id = $(this).attr("data-studentid");
         var content_id = $(this).attr("data-contentid");
 
         window.location.href = "/develope/index.php/home/Detail/index.html?student_id=" + stu_id + "&content_id=" + content_id;
+    });
+
+    $(".list-exit").click(function() {
+
+        $.post("/develope/index.php/home/List/stu_exit",
+            {
+                exit_msg: "exit"
+            },
+            function (data, status) {
+                if(status == "success") {
+                    if(data.status == 0){
+                        window.location.href = "/develope/index.php/home/Login/index.html";
+                    }
+                }
+            });
+
     });
 });

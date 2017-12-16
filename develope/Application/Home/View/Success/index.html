@@ -19,7 +19,7 @@
     </div>
     <div class="success-content">
         <p>恭喜注册成功，我们将通知发送至你的邮箱</p>
-        <p>现在一起去看看你的<a href="#">待办事项</a>吧</p>
+        <p>现在一起去看看你的<a href="/develope/index.php/home/List/index.html">待办事项</a>吧</p>
         <p><span id="success_count">3</span>s...</p>
     </div>
 </body>

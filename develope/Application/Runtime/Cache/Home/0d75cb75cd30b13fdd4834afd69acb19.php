@@ -18,7 +18,7 @@
 					<!--来源块-->
 		       		<table class="source_name">
 		       			<tr>
-		       				<td class="one"><a href=""><</a></td>
+		       				<td class="one"><a href="/develope/index.php/Home/List/index?student_id='<?php echo ($student_id); ?>' &content_id='<?php echo ($content_id); ?>';"><</a></td>
 		       				<td class="two">From <?php echo ($res1["teac_name"]); ?></td>
 		       			</tr>
 		       		</table>

@@ -23,39 +23,45 @@
 
     .success-logo {
         width: 196.5px;
-        height: 28.5px;
+        /*height: 28.5px;*/
+        height:20%;
         background: url("../icon/logo.png") left center no-repeat;
         margin-top: 30.5px;
         margin-right:auto;
         margin-left:auto;
-        margin-bottom: 39px;
+        /*margin-bottom: px;*/
     }
 
     @media screen and (min-width:768px) {
         .success-logo {
             width: 400px;
-            height: 60px;
+            height: 23%;
             background: url("../icon/logo@2x.png") left center no-repeat;
             margin-top: 30.5px;
             margin-right:auto;
             margin-left:auto;
-            margin-bottom: 60px;
         }
     }
 
     .complete-logo {
         width: 64px;
-        height: 64px;
+        /*height: 64px;*/
+        height: 65%;
         background: url("../icon/complete.png") left center no-repeat;
-        margin: 30.5px auto;
+        /*margin: 30.5px auto;*/
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     @media screen and (min-width:768px) {
         .complete-logo {
             width: 130px;
-            height: 130px;
+            height: 70%;
             background: url("../icon/complete@2x.png") left center no-repeat;
-            margin: 30.5px auto;
+            /*margin: 30.5px auto;*/
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
